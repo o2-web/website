@@ -1,0 +1,25 @@
+{
+    "name": "o2-web/website",
+    "description": "Package creation tutorial",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.6",
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "O2Web\\Website\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "erniesto77",
+            "email": "docplanetasite@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

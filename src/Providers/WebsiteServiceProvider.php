@@ -11,8 +11,6 @@ class WebsiteServiceProvider extends ServiceProvider
     public function boot()
     {
         // dd('we are loading our package service provider...');
-
-        parent::boot();
     }
 
     public function register()

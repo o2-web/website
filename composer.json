@@ -14,6 +14,13 @@
             "O2Web\\Website\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": {
+                "O2Web\\Website\\Providers\\WebsiteServiceProvider"
+            }
+        }
+    },
     "license": "MIT",
     "authors": [
         {

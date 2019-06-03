@@ -16,9 +16,9 @@
     },
     "extra": {
         "laravel": {
-            "providers": {
+            "providers": [
                 "O2Web\\Website\\Providers\\WebsiteServiceProvider"
-            }
+            ]
         }
     },
     "license": "MIT",
